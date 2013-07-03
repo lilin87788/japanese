@@ -18,6 +18,17 @@
 		F21251C41783F91E00072DD5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251C31783F91E00072DD5 /* Default-568h@2x.png */; };
 		F21251C71783F91E00072DD5 /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21251C61783F91E00072DD5 /* SKViewController.m */; };
 		F21251CA1783F91E00072DD5 /* SKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21251C81783F91E00072DD5 /* SKViewController.xib */; };
+		F21251DF1784152600072DD5 /* AudioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F21251D21784152600072DD5 /* AudioButton.m */; };
+		F21251E01784152600072DD5 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F21251D41784152600072DD5 /* AudioPlayer.m */; };
+		F21251E11784152600072DD5 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = F21251D61784152600072DD5 /* AudioStreamer.m */; };
+		F21251E21784152600072DD5 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251D71784152600072DD5 /* loading.png */; };
+		F21251E31784152600072DD5 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251D81784152600072DD5 /* Pause.png */; };
+		F21251E41784152600072DD5 /* Pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251D91784152600072DD5 /* Pause@2x.png */; };
+		F21251E51784152600072DD5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251DA1784152600072DD5 /* play.png */; };
+		F21251E61784152600072DD5 /* Play1.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251DB1784152600072DD5 /* Play1.png */; };
+		F21251E71784152600072DD5 /* Play1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251DC1784152600072DD5 /* Play1@2x.png */; };
+		F21251E81784152600072DD5 /* screenshots.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251DD1784152600072DD5 /* screenshots.png */; };
+		F21251E91784152600072DD5 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F21251DE1784152600072DD5 /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,20 @@
 		F21251C51783F91E00072DD5 /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
 		F21251C61783F91E00072DD5 /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
 		F21251C91783F91E00072DD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SKViewController.xib; sourceTree = "<group>"; };
+		F21251D11784152600072DD5 /* AudioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioButton.h; sourceTree = "<group>"; };
+		F21251D21784152600072DD5 /* AudioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioButton.m; sourceTree = "<group>"; };
+		F21251D31784152600072DD5 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		F21251D41784152600072DD5 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		F21251D51784152600072DD5 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		F21251D61784152600072DD5 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		F21251D71784152600072DD5 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		F21251D81784152600072DD5 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		F21251D91784152600072DD5 /* Pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause@2x.png"; sourceTree = "<group>"; };
+		F21251DA1784152600072DD5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F21251DB1784152600072DD5 /* Play1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play1.png; sourceTree = "<group>"; };
+		F21251DC1784152600072DD5 /* Play1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play1@2x.png"; sourceTree = "<group>"; };
+		F21251DD1784152600072DD5 /* screenshots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshots.png; sourceTree = "<group>"; };
+		F21251DE1784152600072DD5 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 		F21251A11783F91E00072DD5 = {
 			isa = PBXGroup;
 			children = (
+				F21251D01784152600072DD5 /* AudioStreamer */,
 				F21251B31783F91E00072DD5 /* Japanese */,
 				F21251AC1783F91E00072DD5 /* Frameworks */,
 				F21251AB1783F91E00072DD5 /* Products */,
@@ -105,6 +131,36 @@
 				F21251C31783F91E00072DD5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F21251D01784152600072DD5 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				F21251EA1784152E00072DD5 /* image */,
+				F21251D11784152600072DD5 /* AudioButton.h */,
+				F21251D21784152600072DD5 /* AudioButton.m */,
+				F21251D31784152600072DD5 /* AudioPlayer.h */,
+				F21251D41784152600072DD5 /* AudioPlayer.m */,
+				F21251D51784152600072DD5 /* AudioStreamer.h */,
+				F21251D61784152600072DD5 /* AudioStreamer.m */,
+			);
+			name = AudioStreamer;
+			path = ../AudioStreamer;
+			sourceTree = "<group>";
+		};
+		F21251EA1784152E00072DD5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F21251D71784152600072DD5 /* loading.png */,
+				F21251D81784152600072DD5 /* Pause.png */,
+				F21251D91784152600072DD5 /* Pause@2x.png */,
+				F21251DA1784152600072DD5 /* play.png */,
+				F21251DB1784152600072DD5 /* Play1.png */,
+				F21251DC1784152600072DD5 /* Play1@2x.png */,
+				F21251DD1784152600072DD5 /* screenshots.png */,
+				F21251DE1784152600072DD5 /* stop.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +220,14 @@
 				F21251C21783F91E00072DD5 /* Default@2x.png in Resources */,
 				F21251C41783F91E00072DD5 /* Default-568h@2x.png in Resources */,
 				F21251CA1783F91E00072DD5 /* SKViewController.xib in Resources */,
+				F21251E21784152600072DD5 /* loading.png in Resources */,
+				F21251E31784152600072DD5 /* Pause.png in Resources */,
+				F21251E41784152600072DD5 /* Pause@2x.png in Resources */,
+				F21251E51784152600072DD5 /* play.png in Resources */,
+				F21251E61784152600072DD5 /* Play1.png in Resources */,
+				F21251E71784152600072DD5 /* Play1@2x.png in Resources */,
+				F21251E81784152600072DD5 /* screenshots.png in Resources */,
+				F21251E91784152600072DD5 /* stop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +241,9 @@
 				F21251BA1783F91E00072DD5 /* main.m in Sources */,
 				F21251BE1783F91E00072DD5 /* SKAppDelegate.m in Sources */,
 				F21251C71783F91E00072DD5 /* SKViewController.m in Sources */,
+				F21251DF1784152600072DD5 /* AudioButton.m in Sources */,
+				F21251E01784152600072DD5 /* AudioPlayer.m in Sources */,
+				F21251E11784152600072DD5 /* AudioStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +366,7 @@
 				F21251CF1783F91E00072DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
